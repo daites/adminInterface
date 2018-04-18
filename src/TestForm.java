@@ -38,7 +38,7 @@ public class TestForm {
         // create OK button listener
         testCreateButton.addActionListener(new ActionListener() {
             /**
-             * Invoked whenever the OK button is clicked.
+             * Invoked whenever the create button is clicked.
              * @param e the click event to be processed
              */
             @Override
