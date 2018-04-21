@@ -1,10 +1,12 @@
+import dorian.AdminSetupForm;
+
 import javax.swing.*;
 
 public class Main {
     public static void createAndShowGui() {
         JFrame frame = new JFrame("Create/Edit Test");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.getContentPane().add(new TestForm().getRootPanel());
+        frame.getContentPane().add(new dorian.AdminSetupForm().getRootPanel());
         frame.pack();
         frame.setVisible(true);
     }
